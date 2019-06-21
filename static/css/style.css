@@ -1,0 +1,81 @@
+.hb-gradient{   
+  background: rgb(2,0,36);
+  /* background: linear-gradient(90deg, rgb(42, 144, 255), rgb(32, 83, 175)); */
+  background: linear-gradient(-60deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+  background-size: 400% 400% ; 
+  animation: bg-change 10s ease-in-out infinite ;
+}
+
+.hb-border{
+  border-radius: 75% 25% 75% 25% / 25% 75% 25% 75% 
+}
+
+@keyframes bg-change {
+  0%{
+    background-position: 0% 25%
+  }
+  25%{
+    background-position: 50% 25%
+  }
+  50%{
+    background-position: 100% 75%
+  }
+  75%{
+    background-position: 25% 50%
+  }
+  100%{
+    background-position: 25% 0%
+  }
+
+}
+@-moz-keyframes bg-change{
+  0%{
+    background-position: 0% 25%
+  }
+  25%{
+    background-position: 50% 25%
+  }
+  50%{
+    background-position: 100% 75%
+  }
+  75%{
+    background-position: 25% 50%
+  }
+  100%{
+    background-position: 25% 0%
+  }
+}
+@-webkit-keyframes bg-change{
+  0%{
+    background-position: 0% 25%
+  }
+  25%{
+    background-position: 50% 25%
+  }
+  50%{
+    background-position: 100% 75%
+  }
+  75%{
+    background-position: 25% 50%
+  }
+  100%{
+    background-position: 25% 0%
+  }
+}
+@-o-keyframes bg-change{
+  0%{
+    background-position: 0% 25%
+  }
+  25%{
+    background-position: 50% 25%
+  }
+  50%{
+    background-position: 100% 75%
+  }
+  75%{
+    background-position: 25% 50%
+  }
+  100%{
+    background-position: 25% 0%
+  }
+}
